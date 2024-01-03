@@ -1,0 +1,199 @@
+body {
+  border: 5px solid #01070d ;
+  font-family: 'Kalam', cursive;
+  background-color: #38c0fe;
+  color: #01070d;
+  text-align: center;
+}
+
+.homepage {
+  background-color: #ef37b1; /* For browsers that do not support gradients */
+  background-image: linear-gradient(180deg, #38c0fe , #ef37b1);
+ }
+
+/*NAV BAR*/
+.nav-link {
+  margin-right: 15px;
+  margin-left: 15px;
+  color: #01070d;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.navbar-brand {
+  color: #01070d;
+}
+
+
+.nav-link.navbar-brand:active {
+  color: #ef37b1 ;
+}
+
+.navbar-brand {
+  margin-left: 15px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #38c0fe;
+  color: #01070d;
+  border-bottom: 5px solid #01070d ;
+  font-size: 20px;
+}
+
+.underline {
+  position: relative;
+  display: inline-block;
+}
+
+.underline::after {
+  content: '';
+  height: 3px;
+  width: 0%;
+  color: #ef37b1;
+  background-color: #ef37b1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.underline:hover::after {
+  width: 100%;
+}
+/*--------------------*/
+
+/*JUMBOTRON*/
+.jumbotronpic {
+  width: 100%;
+  border-bottom: 5px solid #01070d;
+}
+/*--------*/
+
+/*HOME PAGE PICTURES + SCROLLING*/
+body {
+  text-align: center;
+}
+
+.top {
+  margin-top: 15px;
+}
+
+.fst-col{
+  z-index: 1;
+}
+
+.sec-col {
+  z-index: 3;
+}
+
+.index-img img {
+  width: 450px;
+}
+
+.btn-home {
+  background-color: #ef37b1; 
+  color: #01070d;
+  width: 80%;
+  border: 5px solid #01070d;
+  font-size: 30px;
+  border-radius: 0%;
+}
+
+.btn-home:hover {
+  background-color: #ef37b1;
+  color: white;
+  border: 5px solid #01070d;
+  width: 80%;
+  font-size: 30px;
+  border-radius: 0%;
+}
+
+
+.sectionhome {
+  width: 80%;
+  height: 80%;
+  background-color:#38c0fe; 
+  margin: auto; 
+  padding: 20px; 
+  border-radius: 0%;
+  border: 5px solid #01070d
+  
+}
+
+.phome {
+  text-align: left;
+}
+/*--------*/
+
+/*EXPLORE PAGE*/
+.card {
+  border: 5px solid #01070d;
+}
+
+.btn-explore {
+  background-color: #38c0fe ;
+  border: 2px solid #01070d;
+  color: #01070d;
+  border-radius: 5%;
+}
+
+.btn-explore:hover {
+  background-color: #ef37b1 ;
+  color: white;
+  border: 2px solid #01070d;
+}
+
+.card-body {
+  background-image: linear-gradient(180deg, #38c0fe , #ef37b1);
+
+}
+
+
+.gradient {
+  background-color: #ef37b1; /* For browsers that do not support gradients */
+  background-image: linear-gradient(180deg, #38c0fe , #ef37b1);
+  margin: 0%;
+  margin-bottom: 0px;
+}
+
+
+.explorenav {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #38c0fe;
+  border: 5px solid #01070d;
+  color: #01070d;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.breadcrumblink1 {
+  color: #01070d;
+}
+
+.breadcrumb-item {
+  color: #01070d;
+}
+
+/*--------*/
+
+/*HISTORY PAGE*/
+h1 {
+  border: 0%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.carousel {
+  border: 5px solid #01070d;
+}
+
+/*--------*/
